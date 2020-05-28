@@ -9,13 +9,15 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Performs statistical analysis on an unsigned char array.
  *
- * <Add Extended Description Here>
+ * Functions are written to analyze an array of unsigned char data items, and
+ * reports the maximum, minimum, mean, median of the data set. The array is
+ * sorted in the descending order and the data is printed to the screen.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Sathiya Lingam Senthil Kumar>
+ * @date <28 May 2020>
  *
  */
 
@@ -40,4 +42,33 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+/* Function Declarations */
+
+void print_array(unsigned char* ptr,unsigned int n){
+
+}
+
+void print_statistics(unsigned char* ptr,unsigned int n){
+
+}	
+
+unsigned char find_median(unsigned char* ptr,unsigned int n){
+
+}	
+
+unsigned char find_mean(unsigned char* ptr,unsigned int n){
+
+}
+
+unsigned char find_maximum(unsigned char* ptr,unsigned int n){
+
+}
+
+unsigned char find_minimum(unsigned char* ptr,unsigned int n){
+
+}
+
+void sort_array(unsigned char* ptr,unsigned int n){
+	
+}	
+
